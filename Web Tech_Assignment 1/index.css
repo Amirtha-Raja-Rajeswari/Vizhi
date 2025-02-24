@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5; /* Light background */
+    color: #333333; /* Dark gray text */
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Antic Didone', serif;
+    color: #624332; /* Dark brown headings */
+  }
+  
+  p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300; /* Light weight */
+  }
+  
+  /* Header with Logo and Navigation */
+  header {
+    background-color: #C8C3B5; /* Sage background */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Antic Didone', serif;
+    font-size: 4rem; /* Bigger size */
+    color: #624332; /* Dark brown */
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust logo size */
+    margin-right: 10px;
+  }
+  
+  .top-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .top-nav li {
+    margin-left: 20px;
+  }
+  
+  .top-nav a {
+    color: #624332; /* Dark brown */
+    text-decoration: none;
+    font-family: 'Antic Didone', serif;
+    font-size: 2rem;
+  }
+  
+  .top-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('images/2bg.avif'); /* Add your hero image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for transparency */
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-family: 'Antic Didone', serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #A67C52; /* Light brown */
+    color: #FFFFFF; /* White text */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Antic Didone', serif;
+  }
+  
+  .cta-button:hover {
+    background-color: #8a6543; /* Darker brown on hover */
+  }
+  
+  /* Intro Section */
+  .intro {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #FFFFFF; /* White background */
+    margin-bottom: 0; /* Remove space between intro and footer */
+  }
+  
+  .intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #C8C3B5; /* Sage background */
+    text-align: center;
+    padding: 10px;
+  }

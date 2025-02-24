@@ -1,0 +1,168 @@
+/* About Me Page Specific Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5; /* Light background */
+    color: #333333; /* Dark gray text */
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Antic Didone', serif;
+    color: #624332; /* Dark brown headings */
+  }
+  
+  p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300; /* Light weight */
+  }
+  
+  /* Header with Logo and Navigation */
+  header {
+    background-color: #C8C3B5; /* Sage background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Antic Didone', serif;
+    font-size: 4rem;
+    color: #624332; /* Dark brown */
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust logo size */
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    color: #624332; /* Dark brown */
+    text-decoration: none;
+    font-family: 'Antic Didone', serif;
+    font-size: 2rem;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* About Me Section */
+  .about {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #FFFFFF; /* White background */
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Contact Me Section */
+  .contact {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #F5F5F5; /* Light background */
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-family: 'Antic Didone', serif;
+    font-size: 1.2rem;
+    color: #624332; /* Dark brown */
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    border: 1px solid #C8C3B5; /* Sage border */
+    border-radius: 5px;
+  }
+  
+  .cta-button {
+    background-color: #A67C52; /* Light brown */
+    color: #FFFFFF; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Antic Didone', serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #8B5E3C; /* Darker brown on hover */
+  }
+  
+  /* Follow Me Section */
+  .social-media {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #FFFFFF; /* White background */
+  }
+  
+  .social-media h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icons a {
+    color: #624332; /* Dark brown */
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #A67C52; /* Light brown on hover */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #C8C3B5; /* Sage background */
+    text-align: center;
+    padding: 10px;
+  }
